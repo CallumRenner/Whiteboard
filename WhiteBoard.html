@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whiteboard Space</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Whiteboard Space</h1>
+    <input type="color" id="colorPicker">
+    <div id="controls">
+        <div id="grid">
+            <div id="cursorOverlay"></div>
+        </div>
+        <div id="brushSizeControl">
+            <label for="brushSize">Brush Size</label>
+            <input type="range" id="brushSize" min="1" max="100" value="1">
+            <label for="brushShape">Brush Shape</label>
+            <select id="brushShape">
+                <option value="circle">Circle</option>
+                <option value="square">Square</option>
+            </select>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
